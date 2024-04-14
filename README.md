@@ -12,10 +12,11 @@
 <p align="center">
 <img src=images/multimodalfiltering_v2.jpg  width="80%" height="60%">
 </p>
+
 We introduce Self-Filter and demonstrate that vision-language models do not necessarily require a large number of data. A small amount of high-quality data is sufficient for successful instruction tuning.
 
-Our method leverage large vision language models themselves as filters for instruction-finetuning, and does not require additional pre-defined evaluation tasks or surrogate models. it makes no assumptions about downstream tasks, thereby preserving the model’s generalization capabilities.
-<br>
+Our method leverage large vision language models themselves as filters for instruction-finetuning, and does not require additional pre-defined evaluation tasks or surrogate models. It makes no assumptions about downstream tasks, thereby preserving the model’s generalization capabilities.
+
 
 ## Selected Samples & Model Weights
 
@@ -23,7 +24,12 @@ You can download our selected samples and predicted difficulty scores [here](htt
 
 Stage 1 & Stage 2 models can be downloaded from:
 
-
+| Model Name    | Feature Extractors Setting |   Training Data  |                                                                 Checkpoint                                                                 |
+|---------------|----------------------------|:----------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|
+| Stage1-CLIP   | CLIP                       |   full dataset   |   [RayRuiboChen/LLaVA-Self-Filter-Stage1-CLIP](https://huggingface.co/RayRuiboChen/LLaVA-Self-Filter-Stage1-CLIP)   |
+| Stage2-CLIP   | CLIP                       | 25K instructions |   [RayRuiboChen/LLaVA-Self-Filter-Stage2-CLIP](https://huggingface.co/RayRuiboChen/LLaVA-Self-Filter-Stage2-CLIP)   |
+| Stage1-Scores | Scores                     |   full dataset   | [RayRuiboChen/LLaVA-Self-Filter-Stage1-Scores](https://huggingface.co/RayRuiboChen/LLaVA-Self-Filter-Stage1-Scores) |
+| Stage2-Scores | Scores                     | 25k instructions | [RayRuiboChen/LLaVA-Self-Filter-Stage2-Scores](https://huggingface.co/RayRuiboChen/LLaVA-Self-Filter-Stage2-Scores) |
 
 
 ## Installation
