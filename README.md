@@ -10,7 +10,7 @@
 
 
 <p align="center">
-<img src=images/multimodalfiltering_v2.jpg  width="80%" height="60%">
+<img src=images/multimodalfiltering_v2.jpg  width="80%">
 </p>
 
 We introduce Self-Filter and demonstrate that vision-language models do not necessarily require a large number of data. A small amount of high-quality data is sufficient for successful instruction tuning.
